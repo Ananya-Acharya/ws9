@@ -1,0 +1,10 @@
+ 1030  pwd
+ 1031  cd ws9
+ 1032  vi randomsample.sh
+ 1033  more randomsample.sh
+ 1034  head -n 100 amazon_reviews_us_Books_v1_02.tsv > amazon_top_100_lines.tsv
+ 1035  ./randomsample.sh 2 amazon_top_100_lines.tsv 
+ 1036  chmod u+x randomsample.sh 
+ 1037  ./randomsample.sh 2 amazon_top_100_lines.tsv 
+ 1038  ./randomsample.sh 10 amazon_top_100_lines.tsv 
+ 1039  history > cmds.log
